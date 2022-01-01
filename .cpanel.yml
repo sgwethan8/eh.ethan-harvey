@@ -1,5 +1,5 @@
 ---
 deployment:
-      tasks:
-        - export DEPLOYPATH=/home/ethagstg/public_html/ethan-harvey
-        - /bin cp * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/ethagstg/public_html/
+    - /bin/cp -R * $DEPLOYPATH
