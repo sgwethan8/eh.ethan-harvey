@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - cp -r * ./public_html/personal-website
+    - export DEPLOYPATH=/home/ethagstg/public_html/ethan-harvey
+    - /bin/cp -r * $DEPLOYPATH
